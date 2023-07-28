@@ -4,7 +4,7 @@
 <!-- default badges end -->
 # ComboBox for Blazor - Bind to an enumeration
 
-This example demonstrates how to create a wrapper class that obtains enumeration values and passes them to the component's `Data` property.
+This example demonstrates how to create a wrapper class that obtains enumeration values and passes them to the ComboBox component's `Data` property.
 
 ![Bind Combobox to Enum](images/BindComboboxToEnum.png)
 
@@ -25,7 +25,7 @@ Follow the steps below to bind the ComboBox component to an enumeration:
 
 2. Create a [generic extension method](CS/Data/Education.cs#25) that gets the [DisplayAttribute.Name](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute.name?view=net-7.0) property value from the enumeration's member.
 
-3. Add [the ComboBox component](CS/Shared/Combobox.razor#L4) to your project and override the [OnInitialized](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/lifecycle?view=aspnetcore-7.0#component-initialization-oninitializedasync) lifecycle method. This method creates a match between integer and string values of the enumeration's member.
+3. Add [the ComboBox component](CS/Shared/Combobox.razor#L4) to your project and override the [OnInitialized](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/lifecycle?view=aspnetcore-7.0#component-initialization-oninitializedasync) lifecycle method. This method creates a match between enumeration member integer and string values.
 
     ```razor
     @code {
