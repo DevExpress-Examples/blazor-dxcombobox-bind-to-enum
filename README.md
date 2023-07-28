@@ -1,6 +1,6 @@
 # ComboBox for Blazor - Bind to an enumeration
 
-This example demonstrates how create a wrapper class that obtains `Enum` values and passes them to the component's `Data` property.
+This example demonstrates how to create a wrapper class that obtains enumeration values and passes them to the component's `Data` property.
 
 ![Bind Combobox to Enum](images/BindComboboxToEnum.png)
 
@@ -17,7 +17,7 @@ public class EducationDegree {
 }
 ```
 
-Create a generic extension method that gets the [DisplayAttribute.Name](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute.name?view=net-7.0) property value from the enumeration's item.
+Create a generic extension method that gets the [DisplayAttribute.Name](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute.name?view=net-7.0) property value from the enumeration's member.
 
 ```cs
 using System;
