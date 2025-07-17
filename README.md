@@ -54,7 +54,7 @@ Follow the steps below to bind the ComboBox component to an enumeration:
 
 ## Documentation
 
-- [DxComboBox - Bind to an Enumeration](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxComboBox-2.Data#bind-to-an-enumeration)
+- [DxComboBox - Bind to an Enumeration](https://docs.devexpress.com/Blazor/405361/components/data-editors/combobox/data-binding#strongly-typed-collection)
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
