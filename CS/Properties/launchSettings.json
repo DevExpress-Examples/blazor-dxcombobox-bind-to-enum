@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ComboboxExample": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:2806;http://localhost:2807"
+    }
+  }
+}
